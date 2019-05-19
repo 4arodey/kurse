@@ -11,7 +11,6 @@ import { environment } from '../../environments/environment';
 export class AuthService {
 
   private formSubscription: Subscription;
-  private apiUrl = environment.apiUrl;
 
   constructor(
     private router: Router,
