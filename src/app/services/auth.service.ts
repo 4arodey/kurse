@@ -20,7 +20,7 @@ export class AuthService {
 
   public postUser(registerForm) {
     let user;
-    this.formSubscription = this.httpClient.post(`http://localhost:3012/api/v1/auth/login`,
+    this.formSubscription = this.httpClient.post(`http://localhost:3012/api/v1/auth/logina`,
       {
         email: registerForm.value.email,
         password: registerForm.value.password,
